@@ -1,0 +1,59 @@
+.clockContainer{
+    position: relative;
+    margin: auto;
+    width: 80vw;
+    height:40vw;
+   
+   
+    background-image: url("https://illustoon.com/photo/5060.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:50%;
+    justify-content: center;
+}
+
+#hour,#minute,#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+}
+#hour{
+ transform-origin: bottom;        /* so that it will rotate from downward */
+ width: 0.48%;
+ height: 14%;
+ top:40%;
+ left: 49.5%;
+ 
+}
+
+#minute{
+    transform-origin: bottom;
+
+    width: 0.44%;
+    height: 22%;
+    top:33.7%;
+
+    left: 49.3%;
+    opacity: 0.8;
+}
+#second{
+    transform-origin: bottom;
+
+    width: 0.30%;
+    height: 25%;
+    top:29.5%;
+
+    left: 49.5%;
+    opacity: 0.6;
+}
+
+.name{
+    position: relative;
+    top:42%;
+    left: 47%;
+    color: rgb(15, 215, 250);
+    font-size: 2vw;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
